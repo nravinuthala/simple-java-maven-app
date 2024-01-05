@@ -7,8 +7,7 @@ pipeline {
             
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'main',
-                    url: 'https://github.com/nravinuthala/simple-java-maven-app.git'
+                git 'https://github.com/nravinuthala/simple-java-maven-app.git'
 
              }
         }
